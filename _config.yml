@@ -8,8 +8,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
 title: neil2468 - notes to self
 
+# Google services
+google_analytic: UA-100846526-1
 
 # Build settings
 markdown: kramdown
