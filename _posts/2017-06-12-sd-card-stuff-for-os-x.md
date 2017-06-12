@@ -3,6 +3,12 @@ title:  "SD Card Stuff for OS X"
 categories: ["OS X"]
 ---
 
+## Contents
+{: .no_toc}
+* TOC 
+{:toc}
+<hr/>
+
 ## Determine Device Node Assigned to SD Card
 
 Use the command `diskutil list` to determine the device node (e.g. `/dev/disk2`) assigned by OS X to the SD card. Run it once with the SD card removed and then again with the card inserted.
@@ -43,11 +49,8 @@ diskutil zeroErase <deviceNode>
 
 <hr/>
 
-### Specifics
+## Specifics & Resources
 
 * OS X 10.11.6
-
-### Resources
-
 * Writing a new Image to the Beaglebone Black ([derekmolloy.ie](http://derekmolloy.ie/write-a-new-image-to-the-beaglebone-black/))
 * Why is “/dev/rdisk” about 20 times faster than “/dev/disk” in Mac OS X ([superuser.com](https://superuser.com/questions/631592/why-is-dev-rdisk-about-20-times-faster-than-dev-disk-in-mac-os-x))
