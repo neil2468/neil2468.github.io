@@ -1,6 +1,6 @@
 ---
 title: MSc Research Project
-categories: 
+categories: [""]
 ---
 
 I completed my MSc research project in 2012. It involved developing a Genetic Programming system in Lisp, designing and running experiments, and analysing the results.
