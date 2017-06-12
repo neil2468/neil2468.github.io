@@ -16,10 +16,12 @@
   {% endif %}
 
   {% if jekyll.environment == 'production' %}
+  {{ site.google_analytics }}
   PRODUCTION
   {% endif %}
 
   {% if jekyll.environment != 'production' %}
+  {{ site.google_analytics }}  
   NOT-PRODUCTION
   {% endif %}
 
