@@ -14,4 +14,13 @@
   {% include google-analytics.html %}
   GA!!!
   {% endif %}
+
+  {% if jekyll.environment == 'production' %}
+  PRODUCTION
+  {% endif %}
+
+  {% if jekyll.environment != 'production' %}
+  NOT-PRODUCTION
+  {% endif %}
+
 </head>
