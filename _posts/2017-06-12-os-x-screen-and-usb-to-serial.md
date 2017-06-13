@@ -1,6 +1,6 @@
 ---
 title: OS X Screen and USB to Serial
-categories: ["OS X"]
+categories: ["os x"]
 ---
 
 ## Contents

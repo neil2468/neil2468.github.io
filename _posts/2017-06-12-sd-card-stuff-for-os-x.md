@@ -1,6 +1,6 @@
 ---
 title:  "SD Card Stuff for OS X"
-categories: ["OS X"]
+categories: ["os x"]
 ---
 
 ## Contents
