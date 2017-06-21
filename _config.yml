@@ -16,7 +16,7 @@ google_analytics: UA-100846526-1
 
 # Build settings
 markdown: kramdown
-theme: jekyll-swiss
+theme: minima
 gems:
   - jekyll-feed
 exclude:
