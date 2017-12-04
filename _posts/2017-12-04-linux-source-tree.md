@@ -9,10 +9,6 @@ categories: [ "linux dev" ]
 {:toc}
 <hr/>
 
-
-## Get linux-next
-git clone https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git linux-next
-Note: this can't be updated using a simple `git pull`. See 'Working with linux-next' (below).
 	
 ## Build tree
 `cd ~/linux`
@@ -22,6 +18,14 @@ Note: this can't be updated using a simple `git pull`. See 'Working with linux-n
 `make olddefconfig`: Use an old config, and use defaults for new options.
 
 `make -j4 > ~/build.log 2>&1 &`: Build in background (4 parallel jobs).
+
+## Run checkpatch.pl on a sub-tree
+`git ls-files drivers/staging/*.[ch] | xargs ./scripts/checkpatch.pl -f -q`
+
+Only check *.c and *.h files, only output messages about issues (-q).
+
+
+
 
 <hr/>
 
